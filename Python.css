@@ -1,0 +1,154 @@
+.header{
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    height:auto;
+    width: auto;
+    border-bottom-left-radius: 50px;
+    display:flex;
+    
+}
+
+.code-logo{
+    margin-right: 1px;
+    width: 100px;
+    height: 100px;
+}
+.web-logo{
+    margin-top: 5px;
+    font-size: 70px;
+    margin-right: 20px;
+}
+.navbar{
+    margin-left: 10px;
+    margin-top: 50px;
+    /* margin-bottom: 5px; */
+}
+
+td:hover{
+    background-color: rgba(194, 204, 206,0.3);
+    border-radius: 7px;
+    border:1px solid rgba(18, 19, 19, 0.3);
+}
+td{
+    border-right: 2px solid rgba(119, 136, 153, 0.3);
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+/* dropdown open */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bdb5b5;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 22px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+      background-color: rgba(87, 88, 88, 0.2);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      background-color: rgba(87, 88, 88, 0.2);
+      padding: 10px;
+      border-radius: 10px;
+}
+   
+  
+/* dropdown close */
+.main-content-of-python{
+    background-color: rgb(72, 166, 253);
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.python{
+    height: auto;
+    
+}
+.python-logo, python-introduction{
+      float:left;
+      height: auto;
+      margin-bottom: 20px;
+      
+}
+.navbar{
+    margin-bottom: 100px;
+}
+.python-introduction{
+    font-size: 20px;
+}
+.para{
+    font-size: 32px;
+    margin-right: 20px;
+
+}
+.language-headding{
+    font-size: 50px;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+.start-lesson{
+    background-color: #72daff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 0 10px;
+}
+.lesson-details{
+    background-color: #e5e9eb;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 0 10px;
+    
+}
+.buttons{
+    
+    padding: 10px;
+    margin:5px;
+} 
+.video-content{
+    text-align: center;
+}
+.footer-python{
+    vertical-align:bottom;
+    border-radius: 5px;
+    height: auto;
+    background-color: rgb(119, 136, 153);
+    padding: 20px;
+}
+.footer-python h4{
+    text-align: center;
+}
+h4{
+    font: 30px Georgia, serif;
+    margin: 1px;
+}
