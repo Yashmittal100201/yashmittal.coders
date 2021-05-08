@@ -1,5 +1,8 @@
+*{
+    margin: 0px;
+}
 .header{
-    margin: auto;
+    margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -9,6 +12,7 @@
     border-bottom-right-radius: 20px;
     height:auto;
     width: auto;
+    text-align: justify;
 }
 
 .code-logo{
@@ -23,22 +27,26 @@
     overflow: auto;
 }
 .navbar{
+    text-align: justify;
     margin-left: 10px;
     margin-top: 50px;
     margin-bottom: 5px;
 }
 
 .navbar ul{
+
     /* margin-left: 200px; */
-    margin: auto;
     text-align: justify;
+    margin: auto;
     overflow: auto;
 }
 li:hover{
-    background-color: rgba(253, 91, 91, 0.342);
-    border-radius: 17px;
+    background-color: #ddd;
+    color: black;
+    border-radius: 7px;
 }
 li{
+    
     border-right: 2px solid rgba(119, 136, 153, 0.3);
     font-size: 28px;
     letter-spacing: 4px;
@@ -70,6 +78,7 @@ a{
 } */
 .main-content p{
     margin-bottom: 20px;
+    text-align:justify;
 }
 h1{
     opacity: 0.6;
@@ -92,58 +101,62 @@ p{
 .contact-form{
     border-radius: 5px;
     margin-bottom: 10px;
+    padding: 30px 0px;
     background-image: url(15.jpg);
     background-size: cover;
-    display: flex;
-    height: 600px;
     opacity: 0.8;
-    display:flex;
+    display:block;
+    overflow: auto;
 }
-.form-heading{
-    opacity:none;
-}
-.contact-form .contact-us{
-    align-self:center;
-}
+
 .contact-us{
-    margin:auto;
-    /* margin-left: 750px; */
+    margin:auto ;
+    display: block;
     font-size: 25px;
-    height: auto;
-    width: 500px;
+    width:fit-content;
     background-color: rgba(10, 10, 10,0.6);
     color: white;
     border-radius: 10px;
-    text-align: center;
-    /* opacity: 0.; */
+    overflow: auto;
+    padding: 8px 0px 60px 0px;
 }
-.internal-form{
+.form-heading{
+    display: block;
+    width: fit-content;
+    margin: 0px 24px;
+    font-size: 75px;
+}
+/* .internal-form{
     padding-top:5px ;
     height: auto;
-}
+} */
 
 input,textarea{
     font-size: 25px;
     margin-bottom: 20px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 0px 20px 10px 2px;
+    /* padding-bottom: 4px; */
     border-radius: 5px;
 }
 .para{
-    color: solid black;
-    font-size: 30px;
+     color: solid black;
+     display: block;
+     width: fit-content;
+     margin: auto;
+     font-size: 30px; 
     letter-spacing: none;
-    text-decoration: none;
-    margin: 2px;
-    text-align:left; 
+    
 }
 .submit{
+    text-decoration:double ;
+    margin: auto;
+    width: fit-content;
+    display: block;
     background-color: rgb(148, 189, 241);
-    margin-bottom: 60px;
     border-radius: 5px;
     border: rgba(18, 19, 19, 0.3);
     padding: 15px;
-    box-shadow: 5px 10px rgba(40, 27, 223, 0.3);
+    box-shadow: 5px 10px rgba(245, 27, 27, 0.3);
 }
 .submit:hover{
     border-radius: 10px;
@@ -156,10 +169,11 @@ input,textarea{
     background-color: rgb(119, 136, 153);
     padding: 20px;
 }
-.footer h4{
-    text-align: center;
-}
+
 h4{
-    font: 30px Georgia, serif;
-    margin: 1px;
+    display: block;
+    width: fit-content;
+    margin:auto;
+    font: 40px Georgia, serif;
+   
 }
